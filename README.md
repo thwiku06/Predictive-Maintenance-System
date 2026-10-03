@@ -225,9 +225,10 @@ This project demonstrates the integration of Edge AI, embedded sensing, TinyML i
 Disclaimer
 
 This project is developed for educational and experimental purposes. It is not a certified medical, industrial safety, or machinery-protection system and should not be used as the sole protection mechanism for real industrial equipment.
+<img width="1600" height="1200" alt="predictivem" src="https://github.com/user-attachments/assets/25c8e61f-6a2e-49aa-8d5e-980a46d90022" />
 
-<img width="1600" height="1200" alt="predictivem" src="https://github.com/user-attachments/assets/6b0fecaa-04e1-4d69-809b-4439e42eb214" />
+
+https://github.com/user-attachments/assets/75d8ba1a-a4bc-4d2f-bc43-b4382884ebb6
 
 
-https://github.com/user-attachments/assets/8c15247e-efe3-4c10-8cfd-397775714e60
 

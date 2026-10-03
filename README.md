@@ -3,10 +3,7 @@
 An ESP32-based predictive maintenance prototype that combines **TinyML, multi-sensor monitoring, and hardware control** to identify abnormal operating conditions in an electric motor.
 
 The system processes sensor data locally on the ESP32 and uses a lightweight neural network to classify the machine's operating state. A separate vibration-based safety mechanism provides an independent hardware response to critical vibration conditions.
-
----
-
-## Project Overview
+-----------------------------------------------------------------------------------------------------------------------------## Project Overview
 
 Predictive maintenance aims to identify abnormal machine conditions before they develop into serious equipment faults.
 
@@ -26,34 +23,6 @@ The system classifies the machine into four operating states:
 | `device_not_running` | Motor is idle or little/no load is detected |
 | `over_heating` | Elevated temperature condition |
 | `device_error` | Abnormal vibration / potential fault condition |
-
----
-
-## System Architecture
-
-```text
-        Current Sensor
-              │
-        Temperature Sensor
-              │
-        Vibration Sensor
-              │
-              ▼
-        ┌─────────────┐
-        │    ESP32    │
-        │             │
-        │ Data Input  │
-        │     ↓       │
-        │ TinyML MLP  │
-        │     ↓       │
-        │ Classification│
-        └──────┬──────┘
-               │
-       ┌───────┼────────┐
-       │       │        │
-       ▼       ▼        ▼
-     LCD     Relay    Buzzer
-   Display   Control   Alarm
 
 Hardware Components
 Microcontroller
